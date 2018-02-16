@@ -1,0 +1,27 @@
+body {
+    background: #fefefe;
+}
+
+/* CSS for tooltip */
+
+
+.tooltip{
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #444;
+    border-radius: 5px;
+    padding: 6px 10px;
+    color: #eeeeee;
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+    zoom: 1;
+}
+
+
+/* Page CSS */
+
+.wrap div{float: left;width: 40%;border: 1px solid #666;padding: 2%;margin: 2%; }
+div.clearfix{border: none;clear:both;}
